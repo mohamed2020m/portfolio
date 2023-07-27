@@ -22,7 +22,7 @@ const App = ()=> {
           <StarsCanvas/>
         </div>
       </div>
-      <ScrollToTop smooth className='flex justify-center items-center'/>
+      <ScrollToTop smooth className='flex justify-center items-center hover:bg-gray-300'/>
     </BrowserRouter>
   )
 }

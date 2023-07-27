@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -44,7 +44,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
-    <div className="flex flex-col md:flex-row gap-3 "> 
+    <div className="flex flex-col justify-center gap-3 md:flex-row items-center"> 
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
@@ -65,7 +65,7 @@ const About = () => {
         </motion.div>
     </div>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
