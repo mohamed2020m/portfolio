@@ -28,7 +28,13 @@ import {
   eventj,
   eisenHower,
   tictactoe,
-  ensaj
+  ensaj,
+  html,
+  css,
+  c,
+  cpp,
+  git,
+
 } from "../assets";
 
 export const navLinks = [
@@ -78,83 +84,102 @@ const services = [
 ];
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
+  {
+    name: "HTML 5",
+    icon: html,
+    percentage:95,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+    percentage:85,
+  },
   {
     name: "JavaScript",
     icon: javascript,
+    percentage:80,
   },
   {
     name: "React JS",
     icon: reactjs,
+    percentage:85,
   },
   {
     name: "Boostrap",
     icon: boostrap,
+    percentage:85,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+    percentage:70,
   },
   {
     name: "Node JS",
     icon: nodejs,
+    percentage:80,
   },
   {
     name: "MongoDB",
     icon: mongodb,
+    percentage:80,
   },
   {
     name: "Three JS",
     icon: threejs,
+    percentage:60,
   },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
+  {
+    name: "git",
+    icon: git,
+    percentage:80,
+  },
   // {
   //   name: "figma",
   //   icon: figma,
+  //   percentage:80,
   // },
   {
     name: "PHP",
     icon: php,
+    percentage:70,
   },
   {
     name: "Laravel",
     icon: laravel,
+    percentage:70,
   },
   {
     name: "MySql",
     icon: mysql,
+    percentage:70,
   },
   {
     name: "Python",
     icon: python,
+    percentage:90,
   },
   {
     name: "Django",
     icon: django,
+    percentage:85,
   },
 
   {
     name: "Java",
     icon: java,
+    percentage:80,
   },
-  // {
-  //   name: "C",
-  //   icon: c,
-  // },
-  // {
-  //   name: "CPP",
-  //   icon: cpp,
-  // }
+  {
+    name: "C",
+    icon: c,
+    percentage:65,
+  },
+  {
+    name: "CPP",
+    icon: cpp,
+    percentage:60,
+  }
 ];
 
 
