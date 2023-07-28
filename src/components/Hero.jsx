@@ -1,9 +1,23 @@
 import { motion } from "framer-motion";
-
+import React from 'react';
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import TextTransition, { presets } from 'react-text-transition';
+import {textTransition} from "../constants";
 
 const Hero = () => {
+
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      3000, // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -16,12 +30,18 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, Call me <span className='text-[#0dd7df]'>Leeuw</span>
+            {/* Hi, Call me <span className='text-[#0dd7df]'>Leeuw</span> */}
+            <TextTransition springConfig={presets.wobbly}>
+              {textTransition[index % textTransition.length].greeting}
+              <div className='text-[#0dd7df]'>
+                {textTransition[index % textTransition.length].nickname}
+              </div>
+            </TextTransition>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Welcome to my portfolio
-          {/* <br className='sm:block hidden' />with ReactJS */}
-          </p>
+          {/* <p className={`${styles.heroSubText} mt-3 text-white-100`}>
+            Welcome to my portfolio
+          <br className='sm:block hidden' />with ReactJS
+          </p> */}
         </div>
       </div>
 

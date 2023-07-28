@@ -399,7 +399,24 @@ const contacts = [
   },
 ];
 
+const textTransition = [
+  {
+    greeting: "Hi, Call me",
+    nickname: "Leeuw"
+  }, 
+  {
+    greeting: "Welcome To My",
+    nickname: "Portfolio"
+  }, 
+  {
+    greeting: "Don't hesitate To",
+    nickname: "Contact me 😃"
+  }, 
+]
+
+
 export {
+  textTransition,
   services,
   technologies,
   educations,
