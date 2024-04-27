@@ -40,7 +40,8 @@ import {
   aspnet,
   angular,
   infinityChat,
-  mail
+  mail,
+  teethseg
 } from "../assets";
 
 export const navLinks = [
@@ -290,6 +291,39 @@ const projects = [
     source_code_link: "https://infinity-chat.vercel.app/",
   },
   {
+    name: "TeethSeg",
+    description:
+      "TeethSeg is a web application built using Vite with ReactJS and 3D libraries like Three.js and VTK.js. It utilizes the MeshSegNet deep learning model for 3D tooth segmentation. Users can create an account, sign in with Google or Github, and access the segmentation tools in the Start page. The application provides two primary features (OBJ Segmentation and VTP Visualization)",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pytorch",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "FastApi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ReactJs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: teethseg,
+    source_code_link: "https://teethseg.vercel.app",
+  },
+  {
     name: "certify-chain",
     description:
       "The next generation blockchain-based platform for diploma verification.",
@@ -471,7 +505,7 @@ const contacts = [
     icon: linkedin,
   },
   {
-    title: "Email",
+    title: "Email Me",
     url: "mailto:mohamedessabir20@gmail.com",
     icon: mail,
   },

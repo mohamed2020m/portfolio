@@ -48,8 +48,10 @@ import springBoot from './springBoot.png';
 import cetfi_chain from './cetfi_chain.png';
 import infinityChat from './infinityChat.png';
 import mail from './mail.png';
+import teethseg from './teethseg.png';
 
 export {
+  teethseg,
   mail,
   cetfi_chain,
   infinityChat,
