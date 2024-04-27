@@ -41,8 +41,22 @@ import esefj from "./esefj.png";
 import zsmart from "./zsmart.png";
 import mohamed from './mohamed.jpg';
 import ensaj from './ensaj.png';
+import smart_3d_factory from './3d_smart_factory.png';
+import angular from './angular.png';
+import aspnet from './aspnet.jpeg';
+import springBoot from './springBoot.png';
+import cetfi_chain from './cetfi_chain.png';
+import infinityChat from './infinityChat.png';
+import mail from './mail.png';
 
 export {
+  mail,
+  cetfi_chain,
+  infinityChat,
+  smart_3d_factory,
+  angular,
+  springBoot,
+  aspnet,
   ensaj,
   mohamed,
   lablib,

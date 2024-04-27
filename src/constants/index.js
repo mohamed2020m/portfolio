@@ -1,5 +1,6 @@
 import {
   mobile,
+  cetfi_chain,
   backend,
   creator,
   web,
@@ -16,6 +17,7 @@ import {
   threejs,
   github,
   esefj,
+  smart_3d_factory,
   zsmart,
   php,
   laravel,
@@ -34,7 +36,11 @@ import {
   c,
   cpp,
   git,
-
+  springBoot,
+  aspnet,
+  angular,
+  infinityChat,
+  mail
 } from "../assets";
 
 export const navLinks = [
@@ -134,11 +140,6 @@ const technologies = [
     icon: git,
     percentage:80,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  //   percentage:80,
-  // },
   {
     name: "PHP",
     icon: php,
@@ -164,11 +165,25 @@ const technologies = [
     icon: django,
     percentage:85,
   },
-
   {
     name: "Java",
     icon: java,
     percentage:80,
+  },
+  {
+    name: "Spring Boot",
+    icon: springBoot,
+    percentage:85,
+  },
+  {
+    name: "Asp.net",
+    icon: aspnet,
+    percentage:75,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+    percentage:75,
   },
   {
     name: "C",
@@ -185,6 +200,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Web Developer",
+    company_name: "Z SMART SERVICE · Internship",
+    icon: zsmart,
+    iconBg: "#E6DEDD",
+    date: "Apr 2022 - Jun 2022",
+    points: [
+      "Providing a comprehensive library of hands-on coding labs and projects across various programming languages, frameworks, and technologies.",
+      "Incorporating step-by-step tutorials and guided exercises to support learners in understanding and applying concepts effectively.",
+      "Ensuring mobile compatibility and a responsive design, enabling users to access and learn from Labs on various devices.",
+    ],
+  },
+  {
     title: "Full-stack Developer",
     company_name: "ESEF El jadida · Internship",
     icon: esefj,
@@ -198,17 +225,18 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Web Developer",
-    company_name: "Z SMART SERVICE · Internship",
-    icon: zsmart,
-    iconBg: "#E6DEDD",
-    date: "Apr 2022 - Jun 2022",
+    title: "Backend Developer / ML",
+    company_name: "3D SMART FACTORY · Internship",
+    icon: smart_3d_factory,
+    iconBg: "#383E56",
+    date: "JUL 2023 - SEP 2023",
     points: [
-      "Providing a comprehensive library of hands-on coding labs and projects across various programming languages, frameworks, and technologies.",
-      "Incorporating step-by-step tutorials and guided exercises to support learners in understanding and applying concepts effectively.",
-      "Ensuring mobile compatibility and a responsive design, enabling users to access and learn from Labs on various devices.",
+      "Deployment of a Machine Learning model for tooth segmentation",
+      "Users can create an account, sign in with Google or Github, and access the segmentation tools in the Start page.",
+      "Using MeshSegNet deep learning model for 3D tooth segmentation",
+      "OBJ Segmentatio and VTP Visualization"
     ],
-  }
+  },
 ];
 
 const educations = [
@@ -236,6 +264,56 @@ const educations = [
 ]
 
 const projects = [
+  {
+    name: "infinityChat",
+    description:
+      "InfinityChat is a Hackathon based projet, the idea is to build a chatbot that answers questions and inquiries about rules, regulations, and procedural applications in different domains such as educational, health, and banking systems in KSA.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ReactJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "red-text-gradient",
+      },
+    ],
+    image: infinityChat,
+    source_code_link: "https://infinity-chat.vercel.app/",
+  },
+  {
+    name: "certify-chain",
+    description:
+      "The next generation blockchain-based platform for diploma verification.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind ",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Blockchain",
+        color: "red-text-gradient",
+      },
+    ],
+    image: cetfi_chain,
+    source_code_link: "https://certify-chain.vercel.app/",
+  },
   {
     name: "LabLib",
     description:
@@ -393,9 +471,9 @@ const contacts = [
     icon: linkedin,
   },
   {
-    title: "Instagram",
-    url: "https://www.instagram.com/leeuw_med/",
-    icon: instagram,
+    title: "Email",
+    url: "mailto:mohamedessabir20@gmail.com",
+    icon: mail,
   },
 ];
 
