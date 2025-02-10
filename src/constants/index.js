@@ -1,9 +1,6 @@
 import {
-  mobile,
+  terraviva,
   cetfi_chain,
-  backend,
-  creator,
-  web,
   javascript,
   reactjs,
   boostrap,
@@ -41,7 +38,13 @@ import {
   angular,
   infinityChat,
   mail,
-  teethseg
+  teethseg,
+  web_dev,
+  mobile_dev,
+  student,
+  lycee,
+  the_um6p_vanguard_center,
+  next
 } from "../assets";
 
 export const navLinks = [
@@ -73,131 +76,193 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Blockchain Developer",
-    icon: mobile,
+    title: "Full Stack Developer",
+    icon: web_dev,
   },
   {
     title: "Software Engineer Student",
-    icon: creator,
+    icon: student,
   },
+  {
+    title: "Mobile Developer",
+    icon: mobile_dev,
+  },
+  // {
+  //   title: "Blockchain Developer",
+  //   icon: mobile,
+  // },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-    percentage:95,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-    percentage:85,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-    percentage:80,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-    percentage:85,
-  },
-  {
-    name: "Boostrap",
-    icon: boostrap,
-    percentage:85,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-    percentage:70,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-    percentage:80,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-    percentage:80,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-    percentage:60,
-  },
-  {
-    name: "git",
-    icon: git,
-    percentage:80,
-  },
-  {
-    name: "PHP",
-    icon: php,
-    percentage:70,
-  },
-  {
-    name: "Laravel",
-    icon: laravel,
-    percentage:70,
-  },
-  {
-    name: "MySql",
-    icon: mysql,
-    percentage:70,
-  },
-  {
-    name: "Python",
-    icon: python,
-    percentage:90,
-  },
-  {
-    name: "Django",
-    icon: django,
-    percentage:85,
-  },
-  {
-    name: "Java",
-    icon: java,
-    percentage:80,
-  },
-  {
-    name: "Spring Boot",
-    icon: springBoot,
-    percentage:85,
-  },
-  {
-    name: "Asp.net",
-    icon: aspnet,
-    percentage:75,
-  },
-  {
-    name: "Angular",
-    icon: angular,
-    percentage:75,
-  },
-  {
-    name: "C",
-    icon: c,
-    percentage:65,
-  },
-  {
-    name: "CPP",
-    icon: cpp,
-    percentage:60,
-  }
-];
+// const technologies = [
+//   {
+//     name: "HTML 5",
+//     icon: html,
+//     percentage:95,
+//   },
+//   {
+//     name: "CSS 3",
+//     icon: css,
+//     percentage:85,
+//   },
+//   {
+//     name: "JavaScript",
+//     icon: javascript,
+//     percentage:90,
+//   },
+//   {
+//     name: "React JS",
+//     icon: reactjs,
+//     percentage:90,
+//   },
+//   {
+//     name: "Next.Js",
+//     icon: next,
+//     percentage:85,
+//   },
+//   {
+//     name: "Boostrap",
+//     icon: boostrap,
+//     percentage:85,
+//   },
+//   {
+//     name: "Tailwind CSS",
+//     icon: tailwind,
+//     percentage:70,
+//   },
+//   {
+//     name: "Node JS",
+//     icon: nodejs,
+//     percentage:80,
+//   },
+//   {
+//     name: "MongoDB",
+//     icon: mongodb,
+//     percentage:80,
+//   },
+//   {
+//     name: "Three JS",
+//     icon: threejs,
+//     percentage:60,
+//   },
+//   {
+//     name: "git",
+//     icon: git,
+//     percentage:80,
+//   },
+//   {
+//     name: "PHP",
+//     icon: php,
+//     percentage:70,
+//   },
+//   {
+//     name: "Laravel",
+//     icon: laravel,
+//     percentage:70,
+//   },
+//   {
+//     name: "MySql",
+//     icon: mysql,
+//     percentage:70,
+//   },
+//   {
+//     name: "Python",
+//     icon: python,
+//     percentage:90,
+//   },
+//   {
+//     name: "Django",
+//     icon: django,
+//     percentage:85,
+//   },
+//   {
+//     name: "Java",
+//     icon: java,
+//     percentage:80,
+//   },
+//   {
+//     name: "Spring Boot",
+//     icon: springBoot,
+//     percentage:85,
+//   },
+//   {
+//     name: "Asp.net",
+//     icon: aspnet,
+//     percentage:75,
+//   },
+//   {
+//     name: "Angular",
+//     icon: angular,
+//     percentage:75,
+//   },
+//   {
+//     name: "C",
+//     icon: c,
+//     percentage:65,
+//   },
+//   {
+//     name: "CPP",
+//     icon: cpp,
+//     percentage:60,
+//   }
+// ];
 
+
+
+const technologies = {
+  "Programming Languages": [
+    "Python",
+    "JavaScript/TypeScript",
+    "Java",
+    "Kotlin",
+    "Dart",
+    "C#",
+    "PHP",
+    "SQL"
+  ],
+  "Frontend Development": [
+    "React.js",
+    "Next.js",
+    "Angular",
+    "TailwindCSS",
+    "HTML5",
+    "CSS3"
+  ],
+  "Backend Development": [
+    "Django",
+    "FastAPI",
+    "Flask",
+    "Spring Boot",
+    ".NET",
+    "Laravel",
+    "Node.js",
+    "Express"
+  ],
+  "Mobile Development": [
+    "Android",
+    "Flutter",
+    "React Native"
+  ],
+  "Database Technologies": [
+    "Microsoft SQL Server",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB"
+  ],
+  "Cloud & DevOps": [
+    "AWS",
+    "Terraform",
+    "Docker",
+    "Kubernetes",
+    "CI/CD pipelines"
+  ],
+  "Version Control & Project Management": [
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Trello",
+    "Jira"
+  ]
+};
 
 const experiences = [
   {
@@ -238,18 +303,29 @@ const experiences = [
       "OBJ Segmentatio and VTP Visualization"
     ],
   },
+  {
+    title: "Machine Learning Engineer",
+    company_name: "THE UM6P VANGUARD Center · Internship",
+    icon: the_um6p_vanguard_center,
+    iconBg: "#383E56",
+    date: "JUL 2024 - SEP 2024",
+    points: [
+      "Developed QuizMasterAI, a question generation and quiz management system using fine-tuned LLM models to answer questions and generate quizzes.",
+      "Designed a role-based application allowing students to take quizzes generated by professors, with a dashboard to manage quizzes, statistics, and users, as well as language and LLM model selection."
+    ],
+  },
 ];
 
 const educations = [
   {
     title: "Bac Science Math",
     School_name: "Lycée technique ibn soulayman rasmouki - Tiznit",
-    icon: web,
+    icon: lycee,
     iconBg: "#383E56",
     date: "Sep 2017 - Jun 2019",
   },
   {
-    title: "Deux années du cycle préparatoire",
+    title: "Deux années du cycle prparatoire",
     School_name: "Ecole Nationale des sciences appliquées d'El Jadida",
     icon: ensaj,
     iconBg: "#383E56",
@@ -265,6 +341,39 @@ const educations = [
 ]
 
 const projects = [
+  {
+    name: "TerraViva",
+    description:
+      "TerraViva: AI-Enhanced 3D Learning Platform for Medical Education",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Spring Security",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Flutter",
+        color: "red-text-gradient",
+      },
+      {
+        name: "FastApi",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: terraviva,
+    source_code_link: "https://github.com/mohamed2020m/TerraViva",
+  },
   {
     name: "infinityChat",
     description:

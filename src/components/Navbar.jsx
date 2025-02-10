@@ -13,7 +13,7 @@ const Navbar = () => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset;
       if (scrollTop > 100) {
-        setNavbarBackground('#042140');
+        setNavbarBackground('#050816');
       } else {
         setNavbarBackground('transparent');
       }

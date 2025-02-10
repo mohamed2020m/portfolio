@@ -1,8 +1,3 @@
-import logo from "./logo2.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -49,8 +44,23 @@ import cetfi_chain from './cetfi_chain.png';
 import infinityChat from './infinityChat.png';
 import mail from './mail.png';
 import teethseg from './teethseg.png';
+import the_um6p_vanguard_center from './the_vanguard.um6p.jpeg'
+import next from './nextjs.jpeg'
+import web_dev from './web_dev.png';
+import mobile_dev from './mobile_dev.png';
+import student from './student.png';
+import logo from './logo2.png';
+import lycee from './lycee.png';
+import terraviva from './terraviva.png';
+
 
 export {
+  terraviva,
+  student,
+  mobile_dev,
+  web_dev,
+  next,
+  the_um6p_vanguard_center,
   teethseg,
   mail,
   cetfi_chain,
@@ -72,11 +82,8 @@ export {
   twitter,
   instagram,
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
+  lycee,
   menu,
   close,
   css,
