@@ -240,7 +240,7 @@ const Hero = () => {
 
         {/* Download CV Button */}
         <motion.a
-          href="/cv.pdf" // Change to the actual CV file path
+          href="/cv_en.pdf"
           download
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
